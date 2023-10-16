@@ -1,0 +1,44 @@
+// import { useEffect } from "react";
+
+// const Whiteboard = ({ canvasRef, ctxRef }) => {
+//   useEffect(() => {
+//     const canvas = canvasRef.current;
+//     const ctx = canvas.getContext("2d");
+
+//     ctxRef.current = ctx;
+//   }, []);
+
+// const handleMouseDown=(e: any)=>{
+//     console.log("Mouse down",e)
+// }
+// const handleMouseUp=(e: any)=>{
+//     console.log("Mouse Up",e)
+// }
+// const handleMouseMove=(e: any)=>{
+//     console.log("Mouse Move",e)
+// }
+
+
+
+
+//   return (
+//     <div className="pb-5">
+//       <div
+//         className="w-75 p-3  mx-auto   bg-secondary"
+//         style={{ height: "500px" }}
+//       >
+//         <canvas
+//           ref={canvasRef}
+//           width={"1100%"}
+//           height={"465%"}
+//           style={{backgroundColor: "white" }}
+//           onMouseDown={handleMouseDown}
+//           onMouseUp={handleMouseUp}
+//           onMouseMove={handleMouseMove}
+//         />
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Whiteboard;
